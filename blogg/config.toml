@@ -1,0 +1,32 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Radu Ciurca"
+theme = "kube"
+description = "Kube is a professional  and a responsive Hugo theme for developers and designers that offers a documentation section mixed with a landing page and a blog"
+Paginate = 4
+disqusShortname = "raduciurca"
+[Params]
+  RSSLink = "/index.xml"
+  author = "Radu Ciurca" # add your company name
+  github = "ciurca" # add your github profile name
+  twitter = "radu_ciurca" # add your twitter profile
+  email = "raduciurca@gmail.com"
+
+[[menu.main]]
+    name = "Docs"
+    weight = -100
+    url = "/docs/"
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
+[[menu.main]]
+    name = "Faq"
+    weight = -100
+    url = "/faq/"
+
+  [Params.seo.webmaster_verifications]
+      google = "" # Optional, Google verification code
+      bing = "" # Optional, Bing verification code
+      alexa = "" # Optional, Alexa verification code
+      yandex = "" # Optional, Yandex verification code
