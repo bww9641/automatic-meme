@@ -10,6 +10,13 @@ button, .button {
 h1, h2, h3, h4, h5, h6 {
   color: #222; }
 
+.is-navbar .is-active a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid red;
+    margin-bottom: -2px;
+}
+
 .form-centered {
   max-width: 400px;
   margin: auto;
