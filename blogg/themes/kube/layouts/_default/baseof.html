@@ -34,13 +34,12 @@
 
   {{ partial "favicon" . }}
 
- <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
-<link rel="manifest" href="/static/site.webmanifest">
-<link rel="mask-icon" href="/static/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#00aba9">
-<meta name="theme-color" content="#ffffff">
+  <link href="{{ "/css/font.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ "/css/kube.min.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ "/css/kube.legenda.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ "/css/highlight.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ "/css/master.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ "/css/kube.demo.css" | relURL }}" rel="stylesheet" type="text/css">
 <!-- Your own theme here -->
  <link href="{{ "/css/custom.css" | relURL }}" rel="stylesheet" type="text/css">
 <!-- js vendor -->
@@ -71,6 +70,13 @@ w.chaportConfig = { appId : '5d3c5afcb3251d3917693a08' };
 if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push(arguments)};v3.on=function(e,fn){if(!v3._l[e])v3._l[e]=[];v3._l[e].push(fn)};var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://app.chaport.com/javascripts/insert.js';var ss=d.getElementsByTagName('script')[0];ss.parentNode.insertBefore(s,ss)})(window, document);
 </script>
 <!-- End of Chaport Live Chat code -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
+<link rel="manifest" href="/static/site.webmanifest">
+<link rel="mask-icon" href="/static/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="theme-color" content="#ffffff">
 </body>
 
 </html>
