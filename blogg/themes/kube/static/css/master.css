@@ -1081,6 +1081,7 @@ tr.border-none td {
 
 #footer {
   display: flex;
+  align-items: center;
   border-top: 1px solid #eee;
   margin: 4px 0;
   padding: 0 28px;
