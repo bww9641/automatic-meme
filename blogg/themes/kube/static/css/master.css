@@ -45,6 +45,13 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transition: border-color 150ms ease;
     transition: border-color 150ms ease;
 }
+.author-headshot-twitter {
+    margin-top: 6px;
+    margin-left: -11px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: .2px;
+}
 .author-headshot-link._90-opacity {
     opacity: .9;
     -webkit-transition: opacity 115ms ease,border-color 115ms ease,color .2s ease;
