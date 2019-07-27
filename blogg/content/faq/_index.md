@@ -1,7 +1,6 @@
 +++
 description = "About me"
 title = "Author"
-images= "/uploads/about-me.svg"
 author= "Radu Ciurca"
 +++
 ## ![About me | Radu Ciurca](/uploads/about-me.svg "About me | Radu Ciurca")
