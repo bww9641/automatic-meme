@@ -13,6 +13,39 @@ googleAnalytics = "UA-142872866-1"
   twitter = "radu_ciurca" # add your twitter profile
   email = "raduciurca@gmail.com"
 
+  [params.social]
+    github		= "ciurca"
+    facebook		= "ciurca"
+    #facebook_admin	= "17807199"  # This needs to be a page admin to get domain insights
+    twitter		= "radu_ciurca"
+    twitter_domain	= "raduciurca.com" # This domain shows in twitter cards as "View on `twitter_domain`"
+    googleplus		= "RaduCiurca"
+    #pinterest		= "nozzleio"
+    instagram		= "raduciurca"
+    #youtube		= "nozzleio"
+    linkedin		= "raduciurca"
+     [params.authors]
+    [params.authors.Radu]
+
+      name			= "Radu Ciurca"
+      thumbnail		= "http://std3.ru/90/ff/1369441968-90ff032a2fa5dc21487fb9618977c803.jpeg"
+      images		= [
+      					"http://www.mirf.ru/Articles/29/5857/T2.jpg",
+      					"http://img2.wikia.nocookie.net/__cb20090810001437/terminator/images/d/dc/John_conor_05.jpg",
+      				  ]
+      bio			= "John Connor is the son of Sarah Connor and Kyle Reese, and the leader of the worldwide human resistance..."
+      email			= "raduciurca@gmail.com"
+
+      [params.authors.John.social]
+        github			= killskynet"
+        facebook		= killskynet"
+        twitter			= killskynet"
+        googleplus		= killskynet"
+        pinterest		= killskynet"
+        instagram		= killskynet"
+        youtube			= killskynet"
+        linkedin		= killskynet"
+
 [[menu.main]]
     name = "Docs"
     weight = -100
