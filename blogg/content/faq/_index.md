@@ -1,32 +1,36 @@
 +++
-draft= false
-title = "FAQ"
 description = "Asked and answered"
+title = "FAQ"
+
 +++
+\## !\[About me | Radu Ciurca\](/uploads/about-me.svg "About me | Radu Ciurca")
 
-## ![](https://lh3.googleusercontent.com/KP17sMd0fTd71mq44xNre1LoEjMr_6yO6a9XfhQ4cxKgQUhiLb2Zmouz2C3ZV4CmYmKEI-xgNAQ_=s200 "It's me!")
+\***
 
-### Who am I?
+> # **If the stupid didn't exist, the smart would die of hunger.**
 
-A dude interested in topics like technology, finance, economics, politics, entrepreneurship, marketing and books.
-My blog posts and essays are going to reflect that.
+>
 
-### Why not Medium?
+> _The Last Night of Love, The First Night of War_ - Camil Petrescu
 
-My problem with Medium is that you are basically building a house on someone else's land. So yes, I'm only going to be writing on this website.
+It's pretty hard for me to summarize in a few words who I am. But a TL;DR would look something like this.
 
-### Why write?
+\**Radu**, 17 y/o interested in Social Sciences (especially politics and economics), Marketing enthusiast and fun guy to have around.
 
-Writing is an essential skill that I'm trying to develop. Besides, it's a win-win situation. You, the reader are getting something out of it and I'm doing the same.
+\## Writing
 
-### How do I get notified?
+I mostly do this because of the practice. A big proportion of everything that we consume nowadays comes in the form of written material. It's also a good exercise for me since I sometimes find it hard to collect all my thoughts in one place.
 
-Simply subscribe to [my email list](https://mailchi.mp/1b1cfcc997f6/radu "email list") and you will be the first to know when I published something new.
+You'll find most of my written material \[here\](/blog "Blog | Radu Ciurca"), but I do also (sometimes) post articles on other platforms, so subscribing to my newsletter wouldn't be a bad call.
 
-### Contact
+\## Categories
 
-Wanna say hey? Hit me up on [Twitter](https://twitter.com/radu_ciurca).
+I've found that just having one place holding all my articles is better than having multiple places holding written material. You'll be able to access my articles categorized over \[here\](/categories "Categories | Radu Ciurca").
 
-**Also check out:**
+\## Work
 
-* [Privacy Policy](https://www.raduciurca.com/privacypolicy/ "Privacy Policy"); [Terms of Service](https://www.raduciurca.com/termsofservice/ "ToS"); [Cookie Policy](https://www.raduciurca.com/cookiepolicy/ "Cookie Policy")
+I'm currently studying Social Sciences and writing on this website. To see my professional profile, access my LinkedIn from \[here\](linkedin.com/in/raduciurca "LinkedIn Profile | Radu Ciurca").
+
+\## Contact
+
+For personal and professional inquiries, write me a mail. My address is **raduciurca@gmail.com**.
