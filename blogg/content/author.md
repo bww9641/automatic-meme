@@ -1,7 +1,9 @@
 ---
-title: Author
+title: "Author"
 date: 2019-07-27T11:26:05.000+00:00
-description: About me.
+image: "/uploads/about me.svg"
+description: "About me."
+author: "Radu Ciurca"
 
 ---
 ## ![About me | Radu Ciurca](/uploads/about me.svg "About me | Radu Ciurca")
