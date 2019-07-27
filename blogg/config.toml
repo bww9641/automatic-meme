@@ -36,15 +36,15 @@ googleAnalytics = "UA-142872866-1"
       bio			= "John Connor is the son of Sarah Connor and Kyle Reese, and the leader of the worldwide human resistance..."
       email			= "raduciurca@gmail.com"
 
-      [params.authors.John.social]
-        github			= killskynet"
-        facebook		= killskynet"
-        twitter			= killskynet"
-        googleplus		= killskynet"
-        pinterest		= killskynet"
-        instagram		= killskynet"
-        youtube			= killskynet"
-        linkedin		= killskynet"
+      [params.authors.Radu.social]
+        github			= "killskynet"
+        facebook		= "killskynet"
+        twitter			= "killskynet"
+        googleplus	= "killskynet"
+        pinterest		= "killskynet"
+        instagram		= "killskynet"
+        youtube			= "killskynet"
+        linkedin		= "killskynet"
 
 [[menu.main]]
     name = "Docs"
