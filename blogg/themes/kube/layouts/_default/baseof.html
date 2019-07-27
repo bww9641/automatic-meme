@@ -20,7 +20,8 @@
   {{ $is_noindex_true := and (isset .Params "noindex") .Params.noindex }}
   {{ if or (in $noindex_kinds .Kind) ($is_noindex_true) }}
   <meta name="robots" content="noindex">
-  {{ end }}
+{{ end }}
+
   {{ partial "meta/name-author" . }}
   {{ template "_internal/opengraph.html" . }}
   {{ partial "meta/ogimage" . }}
