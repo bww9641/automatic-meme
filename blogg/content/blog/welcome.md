@@ -6,7 +6,7 @@ categories = ["general"]
 draft = false
 description = "This article is just a demo post and shows you the style of common used elements writing in pure markdown without HTML code."
 weight = 10
-image = "https://tomanistor.com/images/blog/vaporwave-palm-trees.jpg"
+opengraphImage = "https://tomanistor.com/images/blog/vaporwave-palm-trees.jpg"
 +++
 
 # Welcome to Kube – an open source documentation like theme for Hugo
