@@ -26,11 +26,11 @@ You'll find most of my written material [here](/blog "Blog | Radu Ciurca"), but 
 
 ## Categories
 
-I've found that just having one place holding all my articles is better than having multiple places holding written material. You'll be able to acces my articles categorized over [here](/categories "Categories | Radu Ciurca").
+I've found that just having one place holding all my articles is better than having multiple places holding written material. You'll be able to access my articles categorized over [here](/categories "Categories | Radu Ciurca").
 
 ## Work
 
-I'm currently studying Social Sciences and writing on this website. To see my professional profile, acces my LinkedIn from [here](linkedin.com/in/raduciurca "LinkedIn Profile | Radu Ciurca").
+I'm currently studying Social Sciences and writing on this website. To see my professional profile, access my LinkedIn from [here](linkedin.com/in/raduciurca "LinkedIn Profile | Radu Ciurca").
 
 ## Contact
 
