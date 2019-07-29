@@ -8,11 +8,8 @@
     <p>{{.Params.description}}<br></p>
 </div>
 <div id="kube-component" class="content">
-  
+ 
 {{.Content}}
- {{if .Params.script}}
-     {{ $script := (delimit (slice "scripts" .Params.script) "/")}}
-    {{ partial (string $script) .}}
     </div>
 <div class="form-subscribe">
     <div id="form-subscribe-success" style="display: none;"></div>
