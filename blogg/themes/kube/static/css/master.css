@@ -218,21 +218,22 @@ h1, h2, h3, h4, h5, h6 {
       text-decoration: underline; }
       #top #top-nav-main b a:hover {
         color: #000; }
-  #top #top-nav-extra {
-    margin-left: auto;
-    font-size: 14px; }
-    #top #top-nav-extra span,
-    #top #top-nav-extra a {
+    #top #top-nav-extra {
+          margin-left: auto;
+          font-size: 14px; }
+          #top #top-nav-extra span,
+          #top #top-nav-extra a {
 
-    }
-    #top #top-nav-extra a:hover {
-      -moz-transition: all linear 0.2s;
-      transition: all linear 0.2s;
-      color: #000;
-      text-decoration: underline; }
-    #top #top-nav-extra span {
-      color: rgba(0, 0, 0, 1);
-      border-color: rgba(0, 0, 0, 1); }
+          }
+          #top #top-nav-extra a:hover {
+            -moz-transition: all linear 0.2s;
+            transition: all linear 0.2s;
+            color: #000;
+            text-decoration: underline; }
+          #top #top-nav-extra span {
+            color: rgba(0, 0, 0, 1);
+            border-color: rgba(0, 0, 0, 1); }
+
 
 #subnav {
   margin-top: 24px;
