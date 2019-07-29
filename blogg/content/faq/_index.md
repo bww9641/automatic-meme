@@ -27,7 +27,7 @@ I've found that just having one place holding all my articles is better than hav
 
 ## Work
 
-I'm currently studying Social Sciences and writing on this website. To see my professional profile, access my LinkedIn from [here](linkedin.com/in/raduciurca "LinkedIn Profile | Radu Ciurca").
+I'm currently studying Social Sciences and writing on this website. To see my professional profile, access my LinkedIn from [here](https://www.linkedin.com/in/raduciurca "LinkedIn Profile | Radu Ciurca").
 
 ## Contact
 
