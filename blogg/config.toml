@@ -26,7 +26,7 @@ images = "https://tomanistor.com/images/blog/vaporwave-palm-trees.jpg"
     name = "Faq"
     weight = -100
     url = "/faq/"
-
+[[menu.second]]
   [Params.seo.webmaster_verifications]
       google = "FtdJW4VlfO6hSozwyVRKPxTYIJ_1nEZbWaEB-BYRnMo" # Optional, Google verification code
       bing = "c423c8f620f74725866a2b079454f54c" # Optional, Bing verification code
