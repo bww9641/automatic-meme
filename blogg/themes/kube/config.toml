@@ -25,3 +25,4 @@ author = "Radu Ciurca"
     name = "Faq"
     weight = -100
     url = "/faq/"
+ [[menu.second]]
