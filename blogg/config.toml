@@ -6,7 +6,7 @@ description = "Radu Ciurca 🦄 The place where I keep track of the proffesional
 Paginate = 4
 disqusShortname = "raduciurca"
 googleAnalytics = "UA-142872866-1"
-image = "https://tomanistor.com/images/blog/vaporwave-palm-trees.jpg"
+images = "https://tomanistor.com/images/blog/vaporwave-palm-trees.jpg"
 [Params]
   RSSLink = "/index.xml"
   author = "Radu Ciurca" # add your company name
