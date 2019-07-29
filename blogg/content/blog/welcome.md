@@ -1,6 +1,5 @@
 +++
 date = "2017-03-02T21:56:55+01:00"
-images = https://tomanistor.com/images/blog/vaporwave-palm-trees.jpg
 images = "https://tomanistor.com/images/blog/vaporwave-palm-trees.jpg"
 title = "Welcome to Kube"
 tags = ["markdown","example"]
@@ -8,6 +7,7 @@ categories = ["general"]
 draft = false
 description = "This article is just a demo post and shows you the style of common used elements writing in pure markdown without HTML code."
 weight = 10
+author = "Radu"
 +++
 
 # Welcome to Kube – an open source documentation like theme for Hugo
