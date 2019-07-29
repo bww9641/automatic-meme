@@ -1,6 +1,6 @@
 +++
 date = "2017-03-02T21:56:55+01:00"
-thumbnail = "https://tomanistor.com/images/blog/vaporwave-palm-trees.jpg"
+image = "https://tomanistor.com/images/blog/vaporwave-palm-trees.jpg"
 title = "Welcome to Kube"
 tags = ["markdown","example"]
 categories = ["general"]
