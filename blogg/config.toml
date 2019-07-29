@@ -6,6 +6,7 @@ description = "Kube is a professional  and a responsive Hugo theme for developer
 Paginate = 4
 disqusShortname = "raduciurca"
 googleAnalytics = "UA-142872866-1"
+image = "https://tomanistor.com/images/blog/vaporwave-palm-trees.jpg"
 [Params]
   RSSLink = "/index.xml"
   author = "Radu Ciurca" # add your company name
