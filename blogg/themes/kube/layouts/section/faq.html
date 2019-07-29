@@ -7,9 +7,13 @@
   <h1>{{.Title }}</h1>
     <p>{{.Params.description}}<br></p>
 </div>
-<div id="kube-faq">
+<div id="kube-component" class="content">
+  
 {{.Content}}
-</div>
+ {{if .Params.script}}
+     {{ $script := (delimit (slice "scripts" .Params.script) "/")}}
+    {{ partial (string $script) .}}
+    </div>
 <div class="form-subscribe">
     <div id="form-subscribe-success" style="display: none;"></div>
 <div id="form-subscribe-box">
