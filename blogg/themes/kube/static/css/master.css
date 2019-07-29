@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .author-headshot-twitter {
     margin-top: 6px;
-    margin-left: -11px;
+    margin-left: auto;
     font-weight: 400;
     text-align: center;
     letter-spacing: .2px;
