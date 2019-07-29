@@ -6,8 +6,8 @@ description = "Radu Ciurca 🦄 The place where I keep track of the proffesional
 Paginate = 4
 disqusShortname = "raduciurca"
 googleAnalytics = "UA-142872866-1"
-#images = "https://pbs.twimg.com/profile_images/1140582222736646144/iu1FQBko_400x400.jpg"
-images = ["https://images.unsplash.com/photo-1413745094207-a01b234cc32f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"]
+images = "https://images.unsplash.com/photo-1413745094207-a01b234cc32f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"
+#images = ["https://images.unsplash.com/photo-1413745094207-a01b234cc32f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"]
 [Params]
   RSSLink = "/index.xml"
   author = "Radu Ciurca" # add your company name
