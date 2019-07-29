@@ -7,7 +7,7 @@ draft = false
 description = "This article is just a demo post and shows you the style of common used elements writing in pure markdown without HTML code."
 weight = 10
 author = "Radu"
-images = ["https://tomanistor.com/images/blog/vapourwave-palm-trees.jpg"]
+images = ["https://images.unsplash.com/photo-1413745094207-a01b234cc32f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"]
 +++
 
 # Welcome to Kube – an open source documentation like theme for Hugo
