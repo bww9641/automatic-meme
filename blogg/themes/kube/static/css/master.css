@@ -223,21 +223,16 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px; }
     #top #top-nav-extra span,
     #top #top-nav-extra a {
-      color: rgba(0, 0, 0, 0.7);
-      display: inline-block;
-      border: 1px solid rgba(0, 0, 0, 0.5);
-      text-decoration: none;
-      line-height: 28px;
-      border-radius: 28px;
-      padding: 0 20px; }
+
+    }
     #top #top-nav-extra a:hover {
       -moz-transition: all linear 0.2s;
       transition: all linear 0.2s;
       color: #000;
       text-decoration: underline; }
     #top #top-nav-extra span {
-      color: rgba(0, 0, 0, 0.4);
-      border-color: rgba(0, 0, 0, 0.2); }
+      color: rgba(0, 0, 0, 1);
+      border-color: rgba(0, 0, 0, 1); }
 
 #subnav {
   margin-top: 24px;
