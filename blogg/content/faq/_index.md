@@ -1,8 +1,9 @@
 +++
-description = "Radu Ciurca | Find out more about me."
-title = "About me"
 author = "Radu Ciurca"
-images = ["https://i.postimg.cc/Hnb7XWdG/about-me.png"]
+description = "Radu Ciurca | Find out more about me."
+images = ["https://i.postimg.cc/Hnj8v0wg/ezgif-com-gif-maker.png"]
+title = "About me"
+
 +++
 ## ![About me | Radu Ciurca](/uploads/about-me.svg "About me | Radu Ciurca")
 
