@@ -9,7 +9,7 @@ title = "Version 2.0 of raduciurca.com 🎉🎉"
 weight = 10
 
 +++
-![Radu Ciurca | New version!](https://images.unsplash.com/photo-1454486837617-ce8e1ba5ebfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80 "Celebration!")Photo by [Andre Hunter](https://unsplash.com/@dre0316?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/celebration?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+![Radu Ciurca | New version!](https://images.unsplash.com/photo-1454486837617-ce8e1ba5ebfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80 "Celebration!")Photo by <a href="https://unsplash.com/@dre0316?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Andre Hunter</a> on <a href="https://unsplash.com/search/photos/celebration?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
 
 # Welcome to raduciurca.com 2.0
 
