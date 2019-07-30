@@ -25,7 +25,7 @@ The website is hosted on [Netlify](https://www.netlify.com/ "Netlify host") and 
 
 ## What to look for?
 
-Navigation is now easy. You can use the Navigation Bar up top to go to various places, or just go to [Categories](https://raduciurca.com/categories "Categories | Radu Ciurca") to get all the content that I have organized.
+Navigation is now easy. You can use the Navigation Bar up top to go to various places, or just go to [Categories](https://raduciurca.com/categories "Categories | Radu Ciurca"){:target="_blank"} to get all the content that I have organized.
 
 ## What holds for the future?
 
