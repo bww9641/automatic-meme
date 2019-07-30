@@ -15,10 +15,6 @@ images = "https://images.unsplash.com/photo-1413745094207-a01b234cc32f?ixlib=rb-
   email = "raduciurca@gmail.com"
   
 [[menu.main]]
-    name = "Docs"
-    weight = -100
-    url = "/docs/"
-[[menu.main]]
     name = "Blog"
     weight = -100
     url = "/blog/"
