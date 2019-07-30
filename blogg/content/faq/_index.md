@@ -3,6 +3,7 @@ description = "About me"
 title = "Author"
 author = "Radu Ciurca"
 images = ["https://svgshare.com/getbyhash/sha1-YCNoXG1nytB351BbkJQbTMdW8Eg="]
+description = "Radu Ciurca | Find out more about me."
 +++
 ## ![About me | Radu Ciurca](/uploads/about-me.svg "About me | Radu Ciurca")
 
