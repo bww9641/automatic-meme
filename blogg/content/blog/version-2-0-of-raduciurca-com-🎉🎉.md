@@ -25,7 +25,7 @@ The website is hosted on <a href="https://www.netlify.com/" target="_blank">Netl
 
 ## What to look for?
 
-Navigation is now easy. You can use the Navigation Bar up top to go to various places, or just go to [Categories](https://raduciurca.com/categories "Categories | Radu Ciurca")<a href="https://forestry.io/" target="_blank">Forestry</a> to get all the content that I have organized.
+Navigation is now easy. You can use the Navigation Bar up top to go to various places, or just go to <a href="https://raduciurca.com/categories" target="_blank">Categories</a> to get all the content that I have organized.
 
 ## What holds for the future?
 
