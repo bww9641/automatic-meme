@@ -19,16 +19,14 @@ My scope hasn't changed, but the look has.
 
 ## What tools am I using for this website?
 
-This website is written in [Hugo](https://gohugo.io/ "Hugo link"), the theme is [Kube](https://github.com/jeblister/kube "Kube theme link") and I am writing this article in [Forestry](https://forestry.io/ "Forestry CMS").
+This website is written in <a href="https://gohugo.io/" target="_blank">Hugo</a>, the theme is <a href="https://github.com/jeblister/kube" target="_blank">Kube</a> and I am writing this article in <a href="https://github.com/jeblister/kube" target="_blank">Forestry</a>.
 
-The website is hosted on [Netlify](https://www.netlify.com/ "Netlify host") and I don't pay a dime since it's a static website.
+The website is hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a> and I don't pay a dime since it's a static website.
 
 ## What to look for?
 
-Navigation is now easy. You can use the Navigation Bar up top to go to various places, or just go to [Categories](https://raduciurca.com/categories "Categories | Radu Ciurca"){:target="_blank"} to get all the content that I have organized.
+Navigation is now easy. You can use the Navigation Bar up top to go to various places, or just go to [Categories](https://raduciurca.com/categories "Categories | Radu Ciurca")<a href="https://forestry.io/" target="_blank">Forestry</a> to get all the content that I have organized.
 
 ## What holds for the future?
 
 I'm still using this site/blog (whatever you want to call it) as a place where I can put all my creative, personal and professional resources.
-
-***
