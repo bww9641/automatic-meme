@@ -28,3 +28,5 @@ fields:
 - type: number
   name: weight
   label: weight
+pages:
+- "blogg/content/blog/version-2-0-of-raduciurca-com-\U0001F389\U0001F389.md"
