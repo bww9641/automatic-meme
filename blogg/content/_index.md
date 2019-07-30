@@ -1,6 +1,6 @@
 +++
 description = "Radu Ciurca 🌑 The place where I keep track of the proffesional and personal"
+images = ["https://i.postimg.cc/pT5pDVRW/undraw-forgot-password-gi2d.png"]
 title = "Radu Ciurca 🦄"
-draft = false
-images = ["https://i.postimg.cc/CdqzTYjd/test.jpg"]
+
 +++
