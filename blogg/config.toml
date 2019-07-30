@@ -27,4 +27,4 @@ images = "https://images.unsplash.com/photo-1413745094207-a01b234cc32f?ixlib=rb-
       google = "FtdJW4VlfO6hSozwyVRKPxTYIJ_1nEZbWaEB-BYRnMo" # Optional, Google verification code
       bing = "c423c8f620f74725866a2b079454f54c" # Optional, Bing verification code
       alexa = "" # Optional, Alexa verification code
-      yandex = "" # Optional, Yandex verification code
+      yandex = "3168d508920883d8" # Optional, Yandex verification code
