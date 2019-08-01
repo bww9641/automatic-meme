@@ -8,43 +8,13 @@
       </section>
 </footer>
 
-<ul class="stats">
-  {{ if isset .Params "categories" }}
-    {{ $categoriesLen := len .Params.categories }}
-    {{ if gt $categoriesLen 0 }}
-      <li class="categories">
-        <ul>
-          {{ range $k, $v := .Params.categories }}
-            {{ $url := printf "categories/%s" (. | urlize | lower) }}
-            <li><a class="article-category-link" href="{{ $url | absLangURL }}">{{ . }}</a></li>
-          {{ end }}
-        </ul>
-      </li>
-    {{ end }}
-  {{ else }}
-    <li class="categories">
-      <ul>
-        <li>None</li>
-      </ul>
-    </li>
+ <time datetime="{{ dateFormat "2006-01-02T15:04:05-07:00" (default .Date (.PublishDate)) }}">
+    {{ dateFormat "2 Jan, 2006" (default .Date (.PublishDate)) }}
+  </time>
+  {{ with .Params.categories }}
+    in <span itemprop="articleSection">{{ delimit (apply (apply (sort .) "partial" "post/category-link" ".") "chomp" ".") ", " " and " }}</span>
   {{ end }}
-  {{ if isset .Params "tags" }}
-    {{ $tagsLen := len .Params.tags }}
-    {{ if gt $tagsLen 0 }}
-      <li class="tags">
-        <ul>
-          {{ range $k, $v := .Params.tags }}
-            {{ $url := printf "tags/%s" (. | urlize | lower) }}
-            <li><a class="article-category-link" href="{{ $url | absLangURL }}">{{ . }}</a></li>
-          {{ end }}
-        </ul>
-      </li>
-    {{ end }}
-  {{ else }}
-    <li class="tags">
-      <ul>
-        <li>None</li>
-      </ul>
-    </li>
+  {{ with .Params.tags }}
+    and tagged {{ delimit (apply (apply (sort .) "partial" "post/tag-link" ".") "chomp" ".") ", " " and " }}
   {{ end }}
-</ul>
+  using <span itemprop="wordCount">{{ .WordCount }}</span> words.
