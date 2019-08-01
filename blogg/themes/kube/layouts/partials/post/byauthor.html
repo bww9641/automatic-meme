@@ -1,4 +1,4 @@
-<p>
+<footer class="post-full-footer">
     <section class="author-card">
         <img class="author-profile-image" src="{{ (.Params.authorAvatar | default .Site.Params.authorAvatar) | absURL}}" alt="Author" />
         <section class="author-card-content">
@@ -6,6 +6,7 @@
                 <p>{{.Params.authorDescription | default .Site.Params.authorDescription}}</p>
         </section>
       </section>
+</footer>
   {{ with .Params.categories }}
     in <span itemprop="articleSection">{{ delimit (apply (apply (sort .) "partial" "post/category-link" ".") "chomp" ".") ", " " and " }}</span>
   {{ end }}
@@ -13,4 +14,4 @@
     and tagged {{ delimit (apply (apply (sort .) "partial" "post/tag-link" ".") "chomp" ".") ", " " and " }}
   {{ end }}
   using <span itemprop="wordCount">{{ .WordCount }}</span> words.
-</p>
+
