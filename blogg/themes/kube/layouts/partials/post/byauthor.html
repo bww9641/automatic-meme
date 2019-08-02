@@ -10,7 +10,7 @@
         </section>
       </section>
 </footer>
-
+<p>
  <time datetime="{{ dateFormat "2006-01-02T15:04:05-07:00" (default .Date (.PublishDate)) }}">
     {{ dateFormat "2 Jan, 2006" (default .Date (.PublishDate)) }}
   </time>
@@ -21,3 +21,4 @@
     and tagged {{ delimit (apply (apply (sort .) "partial" "post/tag-link" ".") "chomp" ".") ", " " and " }}
   {{ end }}
   using <span itemprop="wordCount">{{ .WordCount }}</span> words.
+</p>
