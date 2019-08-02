@@ -6,9 +6,10 @@
  <i class="fa fa-pencil" aria-hidden="true"></i>
 </span>
 {{ if .PublishDate.IsZero }}
-  Published by <a href="{{"/faq" | absURL}}">{{.Params.author | default .Site.Params.author}}</a> on <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "2 Jan, 2006" }}</time>
+{{ with .Params.categories }}
+  Publishedin <span itemprop="articleSection">{{ delimit (apply (apply (sort .) "partial" "post/category-link" ".") "chomp" ".") ", " " and " }}</span> on <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "2 Jan, 2006" }}</time>
 {{ else if lt .PublishDate .Lastmod }}
-  Modified by <a href="{{"/faq" | absURL}}">{{.Params.author | default .Site.Params.author}}</a> on <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}">{{ .Lastmod.Format "2 Jan, 2006" }}</time>
+  Modified in <span itemprop="articleSection">{{ delimit (apply (apply (sort .) "partial" "post/category-link" ".") "chomp" ".") ", " " and " }}</span> on <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}">{{ .Lastmod.Format "2 Jan, 2006" }}</time>
 {{ else }}
-  Published by <a href="{{"/faq" | absURL}}">{{.Params.author | default .Site.Params.author}}</a> on <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}">{{ .PublishDate.Format "2 Jan, 2006" }}</time>
+  Published in <span itemprop="articleSection">{{ delimit (apply (apply (sort .) "partial" "post/category-link" ".") "chomp" ".") ", " " and " }}</span> on <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}">{{ .PublishDate.Format "2 Jan, 2006" }}</time>
 {{ end }}
