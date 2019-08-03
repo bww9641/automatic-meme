@@ -21,6 +21,19 @@ button, .button {
 		transform: translatey(0px);
 	}
 }
+.posts {
+    display: grid;
+    width: 100%;
+    grid-gap: 2rem;
+    padding: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    justify-items: center;
+}
+.wrap {
+    padding: 10px 0;
+    max-width: 1024px;
+    margin: 0 auto;
+}
 .author-card, .post-full-footer {
     display: -ms-flexbox;
     display: flex;
