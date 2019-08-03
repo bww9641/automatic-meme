@@ -1250,6 +1250,46 @@ body.page-account #hero {
     margin-top: 80px;
     margin-bottom: 40px; }
 
+#posts {
+  list-style: none;
+  margin: auto;
+  margin-top: 48px;
+  margin-bottom: 128px;
+  max-width: 680px;
+  text-align: center; }
+
+#posts li {
+  margin-bottom: 40px; }
+
+#posts h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0;
+  line-height: 28px; }
+
+#posts h2 a {
+  color: #1eabf2;
+  text-decoration: none; }
+
+#posts h2 a:hover {
+  -moz-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+  color: #000;
+  text-decoration: underline; }
+
+#posts time {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5); }
+
+#post-box {
+  max-width: 740px;
+  margin: auto; }
+
+#post {
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 40px; }
+
 #components {
   text-align: center; }
   #components.lists {
