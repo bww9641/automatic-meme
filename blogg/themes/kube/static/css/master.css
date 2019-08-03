@@ -21,6 +21,12 @@ button, .button {
 		transform: translatey(0px);
 	}
 }
+.post_tag {
+    font-size: 0.84rem;
+    font-weight: 300;
+    color: #04a763;
+    text-transform: uppercase;
+}
 .post_item {
     box-shadow: 0 0 60px rgba(52, 90, 64, 0.27);
     background: #fff;
