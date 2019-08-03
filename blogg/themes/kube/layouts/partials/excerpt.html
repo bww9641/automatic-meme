@@ -1,5 +1,5 @@
 <li class = 'post_item'>
-  <a class = 'show' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ .images }});'>
+  <a class = 'show' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ Params.images }});'>
   </a>
   <div class = 'excerpt'>
     {{ with .Params.categories -}}
