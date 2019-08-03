@@ -6,14 +6,13 @@
   <h1>My thoughts 💬, Stories 🙊 and Ideas 💡</h1>
     <p>My vision, news and ideas, and whatever feels important.<br> <a href="https://twitter.com/{{.Site.Params.twitter}}">Follow me on Twitter</a></p>
   </div>
-  <div id="components">
-    <div class="row gutters">
-      {{ range .Data.Pages.ByWeight }}
-      <div class="col col-4 item">
-        <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-        <p>{{ .Params.description }}</p>
-      </div>
-      {{ end }}
+<ul id="posts">
+
+ {{ range .Paginator.Pages.ByWeight }} {{ partial "page-summary" . }} {{ end }}
+  <section>{{ partial "pagination" .}}</section>
+</ul>
+
+{{ end }} 
 {{ define "footer" }}
   {{ partial "footer" . }}
 {{ end }}
