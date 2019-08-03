@@ -7,7 +7,7 @@
     <p>My vision, news and ideas, and whatever feels important.<br> <a href="https://twitter.com/{{.Site.Params.twitter}}">Follow me on Twitter</a></p>
   </div>
       <section class="cards-wrapper">
-  <div class="card-grid-space">
+  <div class="row gutters">
       {{ range .Data.Pages.ByWeight }}
       <section class="cards-wrapper">
      <a class="card" href="{{ .Permalink }}" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
