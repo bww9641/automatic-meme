@@ -54,7 +54,10 @@ a{
     line-height: 1.15em;
     color: var(--color-secondary);
 }
-
+.post-card-categories-link {
+    color: var(--color-primary);
+    font-weight: 500;
+}
 .post_categories {
     font-size: 0.84rem;
     font-weight: 300;
