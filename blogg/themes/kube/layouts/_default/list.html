@@ -16,9 +16,10 @@
         <header class="post-card-header">
           <h2 class="post-card-title">{{ .Title }}</h2>
           <div class="post-card-categories">Posted a month ago in  <span class="post-card-categories-link">Title</span></div>
+          </header>
           <section class="post-card-excerpt">{{ .Params.description }}</section>
-        </header>
           </a>
+    </section>
 <ul class='posts wrap' id = 'posts'>
   {{- range (.Paginator 4).Pages }}
     {{ partial "excerpt.html" . }}
