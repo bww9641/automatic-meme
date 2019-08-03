@@ -6,7 +6,7 @@
   <h1>My thoughts 💬, Stories 🙊 and Ideas 💡</h1>
     <p>My vision, news and ideas, and whatever feels important.<br> <a href="https://twitter.com/{{.Site.Params.twitter}}">Follow me on Twitter</a></p>
   </div>
-<ul id="posts">
+<ul class="posts wrap" id="posts">
 
  {{ range .Paginator.Pages.ByWeight }} {{ partial "page-summary" . }} {{ end }}
   <section>{{ partial "pagination" .}}</section>
