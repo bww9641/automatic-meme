@@ -58,6 +58,11 @@ a{
     color: var(--color-primary);
     font-weight: 500;
 }
+.post-card-excerpt {
+    font-size: 1.6rem;
+    line-height: 1.55em;
+    margin-bottom: 20px;
+}
 .post_categories {
     font-size: 0.84rem;
     font-weight: 300;
