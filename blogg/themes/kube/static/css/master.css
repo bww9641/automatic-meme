@@ -24,51 +24,52 @@ a{
 		transform: translatey(0px);
 	}
 }
-.nice {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 0 4vw;
+  .nice {
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 0 4vw;
+    }
+    .post-feed-header-wrapper {
+        text-align: center;
+    }
+    .post-feed-header {
+        display: inline-block;
+        box-shadow: 0 .5px 0 var(--color-border);
+        padding: 0 3vw 20px;
+        margin-bottom: 40px;
+    }
+    .post-feed {
+        padding: 0 7vw;
+    }
+    .post-card-header {
+        margin-bottom: 3vh;
+    }
+    .post-card-title {
+        margin: 0 0 10px;
+        padding: 0;
+    }
+    .post-card-categories {
+        margin: 0 0 5px;
+        font-size: 20px;
+        line-height: 1.15em;
+        color: #222222;
+    }
+    .post-card-categories-link {
+        color: #3794de;
+        font-weight: 500;
+    }
+    .post-card-excerpt {
+        font-size: 20px;
+        line-height: 1.55em;
+        margin-bottom: 20px;
+        color: rgba(0, 0, 0, 0.5);
 }
-.post-feed-header-wrapper {
-    text-align: center;
-}
-.post-feed-header {
-    display: inline-block;
-    box-shadow: 0 .5px 0 var(--color-border);
-    padding: 0 3vw 20px;
-    margin-bottom: 40px;
-}
-.post-feed {
-    padding: 0 7vw;
-}
-.post-card-header {
-    margin-bottom: 3vh;
-}
-.post-card-title {
-    margin: 0 0 10px;
-    padding: 0;
-}
-.post-card-categories {
-    margin: 0 0 5px;
-    font-size: 1.4rem;
-    line-height: 1.15em;
-    color: var(--color-secondary);
-}
-.post-card-categories-link {
-    color: var(--color-primary);
-    font-weight: 500;
-}
-.post-card-excerpt {
-    font-size: 1.6rem;
-    line-height: 1.55em;
-    margin-bottom: 20px;
-}
-.post_categories {
-    font-size: 0.84rem;
-    font-weight: 300;
-    color: #04a763;
-    text-transform: uppercase;
-}
+    .post_categories {
+        font-size: 0.84rem;
+        font-weight: 300;
+        color: #04a763;
+        text-transform: uppercase;
+    }
 
 .post_item {
     box-shadow: 0 0 60px rgba(52, 90, 64, 0.27);
