@@ -21,6 +21,16 @@ button, .button {
 		transform: translatey(0px);
 	}
 }
+.show {
+    display: block;
+    position: relative;
+    background-color: #24292e;
+    border-radius: 6px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 150px;
+}
 .posts {
     display: grid;
     width: 100%;
