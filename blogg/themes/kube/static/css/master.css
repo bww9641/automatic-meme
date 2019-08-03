@@ -48,128 +48,145 @@ a{
     overflow: hidden;
     height: 150px;
 }
-.post{
-  margin:0 auto;
-  padding:15px 25px;
-  width:100%;
-  max-width:750px;
+.post {
+  margin: 0 auto;
+  padding: 15px 25px;
+  width: 100%;
+  max-width: 750px;
   margin-top: 25px;
-  h1,h2,h3{
-    margin:15px auto;
-    text-align:left;
-    padding:5px 0 0 0;
-  }
-  p{
-    padding-bottom:7.5px;
-    padding-top:7.5px;
-    font-size: 1.05rem;
-  }
-  &s{
-    display: grid;
-    width: 100%;
-    grid-gap: 2rem;
-    padding: 1.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-    justify-items: center;
-  }
-  &_aside{
-    padding: 0;
-  }
-  &_content{
-    h4{
-      margin:5px 0;
-      text-align:left;
-    }
-    p{
-      line-height:1.65;
-      &:first-child{
-        margin-top:0;
-        padding-top:0;
-      }
-    }
-    a{
-      color: $theme;
-      padding-bottom:7.5px;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-    ol, ul {
-      list-style-type: initial;
-      padding: 0.5rem 1rem;
-    }
-    li {
-      padding: 0.5rem 0;
-    }
-  }
-  &_header{
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position: center;
-    position:relative;
-    color:#fff;
-    height:48vh;
-    min-height: 360px;
-    background-color:$dark;
-    margin-top:60px;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    &::after {
-      content: "";
-      position: absolute;
-      top:0;
-      left: 0;
-      right: 0;
-      bottom:0;
-      z-index: 1;
-      background: rgba(10, 15, 30, 0.72)
-    }
-    h1 {
-      color: inherit;
-    }
-    h1, p, h4 {
-      position: relative;
-      z-index: 2;
-    }
-  }
-  &_item{
-    @include shadow;
-    background: $light;
-    border-radius: 10px;
-    max-width: 22.5rem;
-    overflow: hidden;
-  }
-  &_link{
-    padding:2.5px 0;
-    color:#000;
-    font-size:1.25em;
-    margin:2.5px 0;
-    text-align:left;
-  }
-  &_meta {
-    text-transform: uppercase;
-    font-size: 0.84rem;
-    font-weight: 500;
-    a {
-      &:hover {
-        color: $theme;
-        text-decoration: underline;
-        opacity: 0.9;
-      }
-    }
-  }
-  &_tag {
-    font-size: 0.84rem;
-    font-weight: 300;
-    color: $theme;
-    text-transform: uppercase;
-  }
-  &_title{
-    margin:5px 0;;
-  }
+}
+
+.post h1, .post h2, .post h3 {
+  margin: 15px auto;
+  text-align: left;
+  padding: 5px 0 0 0;
+}
+
+.post p {
+  padding-bottom: 7.5px;
+  padding-top: 7.5px;
+  font-size: 1.05rem;
+}
+
+.posts {
+  display: grid;
+  width: 100%;
+  grid-gap: 2rem;
+  padding: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  justify-items: center;
+}
+
+.post_aside {
+  padding: 0;
+}
+
+.post_content h4 {
+  margin: 5px 0;
+  text-align: left;
+}
+
+.post_content p {
+  line-height: 1.65;
+}
+
+.post_content p:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.post_content a {
+  color: #04a763;
+  padding-bottom: 7.5px;
+}
+
+.post_content a:hover {
+  text-decoration: underline;
+}
+
+.post_content ol, .post_content ul {
+  list-style-type: initial;
+  padding: 0.5rem 1rem;
+}
+
+.post_content li {
+  padding: 0.5rem 0;
+}
+
+.post_header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  color: #fff;
+  height: 48vh;
+  min-height: 360px;
+  background-color: #24292e;
+  margin-top: 60px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.post_header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: rgba(10, 15, 30, 0.72);
+}
+
+.post_header h1 {
+  color: inherit;
+}
+
+.post_header h1, .post_header p, .post_header h4 {
+  position: relative;
+  z-index: 2;
+}
+
+.post_item {
+  box-shadow: 0 0 60px rgba(52, 90, 64, 0.27);
+  background: #fff;
+  border-radius: 10px;
+  max-width: 22.5rem;
+  overflow: hidden;
+}
+
+.post_link {
+  padding: 2.5px 0;
+  color: #000;
+  font-size: 1.25em;
+  margin: 2.5px 0;
+  text-align: left;
+}
+
+.post_meta {
+  text-transform: uppercase;
+  font-size: 0.84rem;
+  font-weight: 500;
+}
+
+.post_meta a:hover {
+  color: #04a763;
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+.post_tag {
+  font-size: 0.84rem;
+  font-weight: 300;
+  color: #04a763;
+  text-transform: uppercase;
+}
+
+.post_title {
+  margin: 5px 0;
 }
 
 .wrap {
