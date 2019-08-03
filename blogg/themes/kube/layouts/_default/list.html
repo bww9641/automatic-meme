@@ -20,6 +20,7 @@
           <section class="post-card-excerpt">{{ .Params.description }}</section>
           </a>
     </section>
+  </div>
 <ul class='posts wrap' id = 'posts'>
   {{- range (.Paginator 4).Pages }}
     {{ partial "excerpt.html" . }}
