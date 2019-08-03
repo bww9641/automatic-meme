@@ -16,7 +16,7 @@
         <p>{{ .Params.description }}</p>
         <div class="date">{{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }}</div>
  <div class="tags">
-          <div class="tag">{ with .Params.tags }}</div>
+          <div class="tag">{.Params.tags }}</div>
         </div>
         {{ end }}
        </div>
