@@ -21,6 +21,13 @@ button, .button {
 		transform: translatey(0px);
 	}
 }
+.post_item {
+    box-shadow: 0 0 60px rgba(52, 90, 64, 0.27);
+    background: #fff;
+    border-radius: 10px;
+    max-width: 22.5rem;
+    overflow: hidden;
+}
 .show {
     display: block;
     position: relative;
