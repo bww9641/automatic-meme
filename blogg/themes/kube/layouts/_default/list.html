@@ -15,8 +15,6 @@
         <h1>{{ .Title }}</h1>
         <p>{{ .Params.description }}</p>
         <div class="date">{{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }}</div>
- <div class="tags">
-          <div class="tag">{{ .Params.tags }}</div>
         </div>
         {{ end }}
        </div>
