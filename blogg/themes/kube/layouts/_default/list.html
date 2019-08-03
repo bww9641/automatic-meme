@@ -11,7 +11,7 @@
       {{ range .Data.Pages.ByWeight }}
       <section class="cards-wrapper">
       <div class="col col-4 item">
-         <a class="card" href="{{ .Permalink }}" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
+         <a class="card" href="{{ .Permalink }}" style="--bg-img: {{ .Params.images }})">
         <h1>{{ .Title }}</h1>
         <p>{{ .Params.description }}</p>
         <div class="date">{{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }}</div>
