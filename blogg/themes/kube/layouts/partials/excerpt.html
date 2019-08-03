@@ -1,5 +1,5 @@
 <li class = 'post_item'>
-  <a class = 'show' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $.Site.BaseURL }}images/{{ .Params.images }});'>
+  <a class = 'show' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $.Site.BaseURL }}image/{{ .Params.images }});'>
   </a>
   <div class = 'excerpt'>
     {{ with .Params.categories -}}
@@ -8,6 +8,6 @@
     <h3 class = 'post_link'>
       <a href='{{ .Permalink }}'>{{ .Title  }}</a>
     </h3>
-    <p class = 'pale'>{{ .description | truncate 90 }}</p>
+    <p class = 'pale'>{{.description}}</p>
   </div>
 </li>
