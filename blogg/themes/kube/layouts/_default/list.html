@@ -6,27 +6,12 @@
   <h1>My thoughts 💬, Stories 🙊 and Ideas 💡</h1>
     <p>My vision, news and ideas, and whatever feels important.<br> <a href="https://twitter.com/{{.Site.Params.twitter}}">Follow me on Twitter</a></p>
   </div>
-  <div class ="nice">
-    <div class="post-feed-header-wrapper">
-      <h2 class="post-feed-header">Latest Posts</h2>
-    </div>
-     {{ range .Data.Pages.ByWeight }}
-<section class="post-feed">
-  <a class="post-card" href="/tutorial-static-blog-using-headless-ghost-2-0-gatsby-netlify/">
-    <header class="post-card-header">
-      <h2 class="post-card-title">Tutorial: Build a JAMstack Personal Blog with Headless Ghost 2.0 CMS &amp; Gatsby</h2>
-      <div class="post-card-tags">Posted a month ago in  <span class="post-card-tags-link">Tutorial</span></div></header>
-    <section class="post-card-excerpt">In this post I'll introduce you to my latest stack, talk about what influenced the choices and walk you through how to set this up for yourself. </section>
-  <footer class="post-card-footer"><div class="post-card-footer-left"></div><div class="post-card-footer-right"></div></footer>
-  </a>
-    </section>
 <ul class='posts wrap' id = 'posts'>
   {{- range (.Paginator 4).Pages }}
     {{ partial "excerpt.html" . }}
   {{- end }}
 </ul>
 {{ end }} 
-    
 {{ define "footer" }}
   {{ partial "footer" . }}
 {{ end }}
