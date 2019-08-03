@@ -8,7 +8,7 @@ button, .button {
   font-family: Lato, Arial, sans-serif; }
 a{
   text-decoration: none;
-  color:inherit;
+  color: #1da1f2;
 }
 @keyframes float {
 	0% {
