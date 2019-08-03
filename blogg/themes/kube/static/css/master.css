@@ -38,6 +38,22 @@ a{
     padding: 0 3vw 20px;
     margin-bottom: 40px;
 }
+.post-feed {
+    padding: 0 7vw;
+}
+.post-card-header {
+    margin-bottom: 3vh;
+}
+.post-card-title {
+    margin: 0 0 10px;
+    padding: 0;
+}
+.post-card-categories {
+    margin: 0 0 5px;
+    font-size: 1.4rem;
+    line-height: 1.15em;
+    color: var(--color-secondary);
+}
 
 .post_categories {
     font-size: 0.84rem;
