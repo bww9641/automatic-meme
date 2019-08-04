@@ -7,9 +7,9 @@
 <div id="hero">
     <h1 itemprop="headline">  {{.Title}}</h1>
     {{ if .Description }}
-<p class="hero-lead">{{ .Description }}<p class="hero-lead">
+<p class="hero-lead">{{ .Description }}</p>
 {{ end }}
-<time class="post-time">{{ partial "post/meta" . }}</time>
+    <p>Published in in <span class="post-card-categories-link" itemprop="articleSection">{{ range .Params.categories }}{{ . }}{{ end }}</span></p>
 </div>
 <div id="post-box">
 <div id="post" itemprop="articleBody">
