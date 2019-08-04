@@ -7,9 +7,11 @@
 <div id="hero">
     <h1 itemprop="headline">  {{.Title}}</h1>
     {{ if .Description }}
-<p class="hero-lead">{{ .Description }}</p>
+<p class="hero-lead">{{ .Description }}<p class="hero-lead">
 {{ end }}
-    <p>Published in in <span class="post-card-categories-link" itemprop="articleSection">{{ range .Params.categories }}{{ . }}{{ end }}</span></p>
+{{ with .Params.categories }}
+   Posted in <span itemprop="articleSection">{{ delimit (apply (apply (sort .) "partial" "post/category-link" ".") "chomp" ".") ", " " and " }}</span>
+  {{ end }}
 </div>
 <div id="post-box">
 <div id="post" itemprop="articleBody">
