@@ -15,9 +15,7 @@
         <a class="post-card" href="{{ .Permalink }}">
             <header class="post-card-header">
                 <h4 class="post-card-title">{{ .Title }}</h4>
-               {{ with .Params.categories }}
-   Posted in <span itemprop="articleSection">{{ delimit (apply (apply (sort .) "partial" "post/category-link" ".") "chomp" ".") ", " " and " }}</span>
-  {{ end }}
+              <p>Published in <span class="post-card-categories-link" itemprop="articleSection">{{ range .Params.categories }}{{ . }}{{ end }}</span></p>
             </header>
             <section class="post-card-excerpt">{{ .Params.description }}</section>
             <footer class="post-card-footer">
