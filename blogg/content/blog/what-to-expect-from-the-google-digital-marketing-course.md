@@ -37,4 +37,4 @@ If you are **a marketer** or you have **a strong knowledge** when it comes to ma
 
 The Digital Marketing Fundamentals course from Google, is great if you don't know anything about marketing or is just a beginner. Even people that have experience when it comes to Digital Marketing, can benefit, maybe from the actual knowledge, or maybe just the certificate.
 
-PS: [Here](https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code "Validate my certificate!") you can validate my certification code (**H73 SWB ZZB**) to confirm that I actually took the course.
+PS: <a href="[https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code](https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code "https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code")" target="_blank">Here</a> you can validate my certification code (**H73 SWB ZZB**) to confirm that I actually took the course.
