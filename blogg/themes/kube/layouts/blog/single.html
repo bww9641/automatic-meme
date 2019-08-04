@@ -10,7 +10,7 @@
 <p class="hero-lead">{{ .Description }}</p>
 {{ end }}
 {{ with .Params.categories }}
-   Posted in <span itemprop="articleSection">{{ delimit (apply (apply (sort .) "partial" "post/category-link" ".") "chomp" ".") ", " " and " }}</span>
+   Published in <span itemprop="articleSection">{{ delimit (apply (apply (sort .) "partial" "post/category-link" ".") "chomp" ".") ", " " and " }}</span>
   {{ end }}
 </div>
 <div id="post-box">
