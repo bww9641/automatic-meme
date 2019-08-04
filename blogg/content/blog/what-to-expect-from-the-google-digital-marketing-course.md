@@ -13,7 +13,7 @@ weight = 10
 
 ## Context
 
-I really got interested in marketing in the beginning of this summer. After reading and learning a little bit about the subject, I stumbled upon Google's free  <a href="[https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing](https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing "https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing")" target="_blank">Digital Marketing Fundamentals course</a>. It seemed like it would be worth my time. so I decided to take it.
+I really got interested in marketing in the beginning of this summer. After reading and learning a little bit about the subject, I stumbled upon Google's free <a href="[https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing](https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing "https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing")" target="_blank">Digital Marketing Fundamentals course</a>. It seemed like it would be worth my time. so I decided to take it.
 
 ## What to expect
 
