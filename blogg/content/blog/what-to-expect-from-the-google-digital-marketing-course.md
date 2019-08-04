@@ -6,7 +6,7 @@ description = "I took the Digital Marketing Course from Google. Here's what to e
 images = ["undraw_all_the_data_h4ki.png"]
 tags = ["Expectations", "Radu Ciurca", "Radu Ciurca Marketing", "Google", "Marketing", "Google Digital Marketing Course"]
 title = "What to expect from the Google Digital Marketing course"
-weight = 100
+weight = 10
 
 +++
 ![Google Digital Marketing](/uploads/undraw_all_the_data_h4ki.svg "Marketing")
