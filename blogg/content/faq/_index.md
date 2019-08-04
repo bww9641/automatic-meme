@@ -15,7 +15,7 @@ title = "About me"
 
 It's pretty hard for me to summarize in a few words who I am. But a TL;DR would look something like this.
 
-**Radu**, 17 y/o interested in Social Sciences (especially politics and economics), Marketing enthusiast and fun guy to have around.
+**Radu**, 17 y/o interested in Social Sciences (especially politics and economics), a Marketing enthusiast and fun guy to have around.
 
 ## Writing
 
