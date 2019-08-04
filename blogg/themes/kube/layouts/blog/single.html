@@ -7,7 +7,7 @@
 <div id="hero">
     <h1 itemprop="headline">  {{.Title}}</h1>
     {{ if .Description }}
-<p class="hero-lead">{{ .Description }}<p class="hero-lead">
+<p class="hero-lead">{{ .Description }}</p>
 {{ end }}
 {{ with .Params.categories }}
    Posted in <span itemprop="articleSection">{{ delimit (apply (apply (sort .) "partial" "post/category-link" ".") "chomp" ".") ", " " and " }}</span>
