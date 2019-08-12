@@ -10,7 +10,7 @@ collections:
 
     label: "Post" # Used in the UI
 
-    folder: "content/post" # The path to the folder where the documents are stored
+    folder: "blogg/content/blog" # The path to the folder where the documents are stored
 
     create: true # Allow users to create new documents in this collection
 
@@ -48,25 +48,14 @@ collections:
         required: false
         widget: "list"
 
-      - label: "Auto Thumbnail Image"
-        name: "autoThumbnailImage"
+      - label: "Meta Image"
+        name: "Images"
         required: false
         widget: "boolean"
         default: true
 
-      - label: "Thumbnail Image Position"
-        name: "thumbnailImagePosition"
-        required: false
-        widget: "select"
-        options: ["left", "top", "right"]
-
-      - label: "Thumbnail Image"
-        name: "thumbnailImage"
-        required: false
-        widget: "image"
-
-      - label: "Cover Image"
-        name: "coverImage"
+      - label: "Meta Image"
+        name: "Images"
         required: false
         widget: "image"
 
