@@ -53,6 +53,7 @@
   </script>
 
   <script type="text/javascript" src="{{ "/js/tocbot.min.js" | relURL }}"></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 
@@ -90,6 +91,17 @@ if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push
         js.src = "https://makerwidget.com/js/embed.js";
         fjs.parentNode.insertBefore(js, fjs)
     }(document, "script", "dhm"))
+</script>
+  <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
 </script>
 </body>
 
