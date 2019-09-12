@@ -29,5 +29,6 @@ fields:
   name: weight
   label: weight
 pages:
+- blogg/content/blog/social-media-is-boring.md
 - blogg/content/blog/what-to-expect-from-the-google-digital-marketing-course.md
 - "blogg/content/blog/version-2-0-of-raduciurca-com-\U0001F389\U0001F389.md"
