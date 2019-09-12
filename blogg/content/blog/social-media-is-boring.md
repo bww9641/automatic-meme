@@ -11,7 +11,7 @@ weight = 10
 +++
 ![0 likes :(](/uploads/prateek-katyal-xv7-glvblfw-unsplash.jpg "0 likes :(")
 
-Photo by <a href="[https://unsplash.com/@prateekkatyal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText](https://unsplash.com/@prateekkatyal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "https://unsplash.com/@prateekkatyal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText")" target="_blank">Prateek Katyal</a> on <a href="[https://unsplash.com/](https://unsplash.com/ "https://unsplash.com/")" target="_blank">Unsplash</a>
+Photo by <a href="https://unsplash.com/@prateekkatyal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Prateek Katyal</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a>
 
 # Context
 
@@ -23,7 +23,7 @@ I think I was an addict, like many of us. I needed my hit, and social media coul
 
 About a year ago I wanted to see how much I could go without any form of social media. I uninstalled social media and had a pretty good run. Granted, I still checked it from time to time, but it wasn't as convenient with the apps **uninstalled**.
 
-Nowadays the only social media app that I have installed on my phone is **Twitter**. I use Twitter mostly to find out new tips and tricks in the Growth Marketing world. It's also convenient to use it, since no one really uses it in Romania (where I'm from). The only person that I share things on Twitter with is <a href="[https://www.tudorcodes.com/](https://www.tudorcodes.com/ "https://www.tudorcodes.com/")" target="_blank">my brother</a>.
+Nowadays the only social media app that I have installed on my phone is **Twitter**. I use Twitter mostly to find out new tips and tricks in the Growth Marketing world. It's also convenient to use it, since no one really uses it in Romania (where I'm from). The only person that I share things on Twitter with is <a href="https://www.tudorcodes.com/" target="_blank">my brother</a>.
 
 I check Facebook and Instagram just for the **notifications**, I find it useful for events and such, but other than that, I don't spent much time on them. It's the same people, the same stuff, nothing much really changes. I still find myself sometimes looking at video memes on Facebook, cause I often find them hilarious, but I find myself doing that mainly on a computer.
 
