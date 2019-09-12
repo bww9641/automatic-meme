@@ -1,7 +1,7 @@
 ---
 title: Social Media is boring
 date: '2019-09-12T15:00:56+03:00'
-draft: true
+draft: false
 categories:
   - Lifestyle
 tags:
@@ -9,6 +9,7 @@ tags:
   - Lifestyle
   - Blog
   - Radu Ciurca
+images = ["https://images.unsplash.com/photo-1554177255-61502b352de3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"]
 ---
 ![null](/images/uploads/prateek-katyal-xv7-glvblfw-unsplash.jpg)
 
