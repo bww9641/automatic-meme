@@ -1,6 +1,15 @@
-+++ author = "Radu Ciurca" categories = ["Lifestyle"] date = "2019-09-12T15:00:56+03:00" description = "It's boring for me." images = ["https://images.unsplash.com/photo-1554177255-61502b352de3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"] tags = ["Social Media", "Lifestyle", "Blog", "Radu Ciurca"] title = "Social Media is boring" weight = 10
-
-+++
+---
+title: Social Media is boring
+date: '2019-09-12T15:00:56+03:00'
+draft: false
+categories:
+  - Lifestyle
+tags:
+  - Social Media
+  - Lifestyle
+  - Blog
+  - Radu Ciurca
+---
 ![null](/images/uploads/prateek-katyal-xv7-glvblfw-unsplash.jpg)
 
 Photo by <a href="https://unsplash.com/@prateekkatyal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Prateek Katyal</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a>
