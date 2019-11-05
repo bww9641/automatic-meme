@@ -1,0 +1,28 @@
+baseURL = "https://raduciurca.com"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Radu Ciurca"
+theme = "hallo"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+
+[Author]
+    name = "Radu Ciurca"
+
+[params]
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:raduciurca@gmail.com"
+
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/cradu"
+
+    [[params.links]]
+        icon = "twitter"
+        title = "Twitter"
+        url = "https://twitter.com/raduciurca"
+      
