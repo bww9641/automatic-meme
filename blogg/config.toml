@@ -19,4 +19,4 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     [[params.links]]
         icon = "linkedin"
         title = "LinkedIn"
-        url = "https://www.linkedin.com/in/raduciurca/"
+        url = "https://www.linkedin.com/in/raduciurca"
