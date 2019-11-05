@@ -1,33 +1,22 @@
-baseURL = "https://www.raduciurca.com/"
-languageCode = "en-us"
-title = "Radu Ciurca 🦄"
-theme = "kube"
-description = "Radu Ciurca 🦄 The place where I keep track of the proffesional and personal"
-Paginate = 4
-disqusShortname = "raduciurca"
-googleAnalytics = "UA-142872866-1"
-images = "https://images.unsplash.com/photo-1413745094207-a01b234cc32f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"
-[Params]
-  RSSLink = "/index.xml"
-  author = "Radu Ciurca" # add your company name
-  authorAvatar = "https://pbs.twimg.com/profile_images/1140582222736646144/iu1FQBko_400x400.jpg"
-  authorWebsite = "raduciurca.com"
-  authorDescription = "17 y/o interested in Social Sciences (especially politics and economics), Marketing enthusiast and fun guy to have around."
-  github = "ciurca" # add your github profile name
-  twitter = "radu_ciurca" # add your twitter profile
-  email = "raduciurca@gmail.com"
-  
-[[menu.main]]
-    name = "Blog"
-    weight = -100
-    url = "/blog/"
-[[menu.main]]
-    name = "Faq"
-    weight = -100
-    url = "/faq/"
-[[menu.second]]
-  [Params.seo.webmaster_verifications]
-      google = "FtdJW4VlfO6hSozwyVRKPxTYIJ_1nEZbWaEB-BYRnMo" # Optional, Google verification code
-      bing = "c423c8f620f74725866a2b079454f54c" # Optional, Bing verification code
-      alexa = "" # Optional, Alexa verification code
-      yandex = "3168d508920883d8" # Optional, Yandex verification code
+baseURL = "https://raduciurca.com"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Radu Ciurca"
+theme = "hallo"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+
+[Author]
+    name = "Radu Ciurca"
+
+[params]
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:raduciurca@gmail.com"
+
+    [[params.links]]
+        icon = "linkedin"
+        title = "LinkedIn"
+        url = "https://www.linkedin.com/in/raduciurca/"
