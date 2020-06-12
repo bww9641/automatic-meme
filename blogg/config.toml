@@ -1,22 +1,35 @@
 baseURL = "https://raduciurca.com"
-languageCode = "en"
-defaultContentLanguage = "en"
+languageCode = "en-us"
 title = "Radu Ciurca"
-theme = "hallo"
-disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+theme = "kube"
+description = "Kube is a professional  and a responsive Hugo theme for developers and designers that offers a documentation section mixed with a landing page and a blog"
+Paginate = 4
+author = "Radu Ciurca"
 
-[Author]
-    name = "Radu Ciurca"
+[Params]
+  RSSLink = "/index.xml"
+  author = "Radu Ciurca" # add your company name
+  github = "ciurca" # add your github profile name
+  twitter = "radu_ciurca" # add your twitter profile
+  email = "raduciurca@gmail.com"
 
-[params]
+[[menu.main]]
+    name = "Docs"
+    weight = -100
+    url = "/docs/"
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
+[[menu.main]]
+    name = "Faq"
+    weight = -100
+    url = "/faq/"
+    [[menu.second]]
 
-    [[params.links]]
-        iconset = "fas"
-        icon = "envelope"
-        title = "E-mail"
-        url = "mailto:raduciurca@gmail.com"
-
-    [[params.links]]
-        icon = "linkedin"
-        title = "LinkedIn"
-        url = "https://www.linkedin.com/in/raduciurca/"
+  [Params.seo.webmaster_verifications]
+      google = "FtdJW4VlfO6hSozwyVRKPxTYIJ_1nEZbWaEB-BYRnMo" # Optional, Google verification code
+      bing = "c423c8f620f74725866a2b079454f54c" # Optional, Bing verification code
+      alexa = "" # Optional, Alexa verification code
+      yandex = "" # Optional, Yandex verification code
+      
