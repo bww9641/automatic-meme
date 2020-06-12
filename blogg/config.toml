@@ -1,4 +1,4 @@
-baseURL = "https://raduciurca.com"
+baseURL = "https://raduciurca.netlify.app/"
 languageCode = "en-us"
 title = "Radu Ciurca"
 theme = "kube"
